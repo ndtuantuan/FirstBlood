@@ -27,6 +27,9 @@
                                 <state key="normal" title="2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="dGG-t2-I2o" kind="show" id="yIE-AC-wMe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -36,6 +39,45 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-377" y="-263"/>
+        </scene>
+        <!--2-->
+        <scene sceneID="fyn-QW-588">
+            <objects>
+                <viewController id="KR4-GO-PFR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j5D-6Y-W0r"/>
+                        <viewControllerLayoutGuide type="bottom" id="XpU-X5-ihM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aQ6-Pb-TaI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2" id="Ln1-em-v2z"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G1E-24-akB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="803" y="-164"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gTy-xL-NTc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dGG-t2-I2o" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7ax-oT-xX9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KR4-GO-PFR" kind="relationship" relationship="rootViewController" id="OLU-1W-7Ou"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7NT-rm-rpo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9" y="-164"/>
         </scene>
     </scenes>
 </document>
